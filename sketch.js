@@ -10,6 +10,10 @@ function setup() {
   L.marker([42.56, 27.6]).addTo(map)
     .bindPopup('Поморие<br> <a href="https://www.youtube.com/watch?v=zLkM__Bx8Ew">Video</a>')
     .openPopup();
+	
+	L.marker([43, 25.6]).addTo(map)
+    .bindPopup('Място')
+    .openPopup();
 
   L.marker([43.3718, 26.6080]).addTo(map)
      .bindPopup('Лозница<br> <a href="https://loznitsa.bg/">Site</a>')
